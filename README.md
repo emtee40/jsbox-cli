@@ -1,6 +1,6 @@
 # jsbox-cli
 
-JSBox VSCode 插件的 cli 版本.
+JSBox VSCode plug-in 'cli' versions.
 
 ![Travis](https://img.shields.io/travis/Dreamacro/jsbox-cli.svg?style=flat-square)
 ![NPM version](https://img.shields.io/npm/v/jsbox-cli.svg?style=flat-square)
@@ -13,40 +13,40 @@ $ npm i jsbox-cli -g
 
 ## Getting Started
 
-设置手机端 Host IP
+Set up the mobile terminal Host IP
 
 ```
 $ jsbox set 192.168.1.1
 ```
 
-查看当前的 Host IP
+View Current Host IP
 
 ```
 $ jsbox host
 ```
 
-监听一个目录或文件
+Monitor a Directory or File
 
 ```
-# 监听当前目录
+# Monitor the current directory
 $ jsbox watch
 
-# 监听指定目录
+# Listen to the specified directory
 $ jsbox watch ./dist
 
-# 监听指定文件
+# **Listen to the specified file**
 $ jsbox watch ./index.js
 ```
 
-构建一个 JSBox 应用
+Build JSBox Application
 
 ```
-# 构建当前目录, 默认生成到 .output
+# Build the current directory, default to '.output' 
 $ jsbox build
 
-# 构建指定目录
+# Build the specified directory
 $ jsbox build ./dist
 
-# 自定义输出路径
+# Custom output path
 $ jsbox build ./dist -o ./dist/output.box
 ```
